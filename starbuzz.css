@@ -75,18 +75,35 @@ a:visited {
   margin-right:      auto;
 }
 
-div#tableContainer {
-  display: table;
-}
-
-div#tableRow{
-  display: table-row;
-}
-
 #tableContainer{
 display: table;
 border-spacing: 10px;
 }
 #tableRow{
   display: table-row;
+}
+
+.headerImageLeft{
+  position: absolute;
+  
+  display: inline-block;
+  background-image: url(images/header.gif);
+  width: 400px;
+  height: 100px;
+}
+
+.headerImageRight{
+  display: inline-block;
+  float: Right;
+  background-image: url(images/header.gif);
+  width: 400px;
+  height: 100px;
+  background-position: -400px,0px;
+}
+
+#award {
+  z-index: 2;
+  position: absolute;
+  top: 30px;
+  left: 365px;
 }
